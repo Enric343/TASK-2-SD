@@ -1,0 +1,90 @@
+|                                      |        |                                                     AssertionError: '' != 'value1'                                                      |
+|                                      |        |                                + value1 : Unexpected value for key 'key1': expected 'value1' but got ''                                 |
+| test_node_failure_during_transaction |  FAIL  |                                                   Traceback (most recent call last):                                                    |
+|                                      |        |       File "/home/milax/Escriptori/TASK2-SD/./eval/centralized_system_tests.py", line 372, in test_node_failure_during_transaction      |
+|                                      |        |                           self.assertEqual(response.value, "recovery_value", "Data was not correctly recovered.")                       |
+|                                      |        |                                                 AssertionError: '' != 'recovery_value'                                                  |
+|                                      |        |                                          + recovery_value : Data was not correctly recovered.                                           |
+|                Total                 | PASSED |                                                                   6/8                                                                   |
++--------------------------------------+--------+-----------------------------------------------------------------------------------------------------------------------------------------+
+SIGTERM received. Shutting down...
+Performed 400 operations in 1.29 seconds (slowing down master).
+
+Centralized Test Results Summary:
++-----------+--------+---------+
+| Test Case | Result | Details |
++-----------+--------+---------+
+|   Total   | PASSED |   8/8   |
++-----------+--------+---------+
+|      Test Case       | Result |                                                    Details                                                     |
++----------------------+--------+----------------------------------------------------------------------------------------------------------------+
+| test_get_correctness |  FAIL  |                                       Traceback (most recent call last):                                       |
+|                      |        |   File "/home/milax/Escriptori/TASK2-SD/./eval/centralized_system_tests.py", line 183, in test_get_correctness |
+|                      |        |                                   self.assertEqual(response.value, "test_value")                               |
+|                      |        |                                       AssertionError: '' != 'test_value'                                       |
+|                      |        |                                                  + test_value                                                  |
+|        Total         | PASSED |                                                      7/8                                                       |
++----------------------+--------+----------------------------------------------------------------------------------------------------------------+
+|      Test Case       | Result |                                                    Details                                                     |
++----------------------+--------+----------------------------------------------------------------------------------------------------------------+
+| test_get_correctness |  FAIL  |                                       Traceback (most recent call last):                                       |
+|                      |        |   File "/home/milax/Escriptori/TASK2-SD/./eval/centralized_system_tests.py", line 183, in test_get_correctness |
+|                      |        |                                   self.assertEqual(response.value, "test_value")                               |
+|                      |        |                                       AssertionError: '' != 'test_value'                                       |
+|                      |        |                                                  + test_value                                                  |
+|        Total         | PASSED |                                                      7/8                                                       |
++----------------------+--------+----------------------------------------------------------------------------------------------------------------+
+|                                      |        |                                                     AssertionError: '' != 'value1'                                                      |
+|                                      |        |                                + value1 : Unexpected value for key 'key1': expected 'value1' but got ''                                 |
+| test_node_failure_during_transaction |  FAIL  |                                                   Traceback (most recent call last):                                                    |
+|                                      |        |       File "/home/milax/Escriptori/TASK2-SD/./eval/centralized_system_tests.py", line 372, in test_node_failure_during_transaction      |
+|                                      |        |                           self.assertEqual(response.value, "recovery_value", "Data was not correctly recovered.")                       |
+|                                      |        |                                                 AssertionError: '' != 'recovery_value'                                                  |
+|                                      |        |                                          + recovery_value : Data was not correctly recovered.                                           |
+|                Total                 | PASSED |                                                                   6/8                                                                   |
++--------------------------------------+--------+-----------------------------------------------------------------------------------------------------------------------------------------+
+SIGTERM received. Shutting down...
+Performed 400 operations in 1.30 seconds (slowing down master).
+
+Centralized Test Results Summary:
++-----------+--------+---------+
+| Test Case | Result | Details |
++-----------+--------+---------+
+|   Total   | PASSED |   8/8   |
++-----------+--------+---------+
+SIGTERM received. Shutting down...
+Performed 400 operations in 0.70 seconds (slowing down master).
+
+Centralized Test Results Summary:
++-----------+--------+---------+
+| Test Case | Result | Details |
++-----------+--------+---------+
+|   Total   | PASSED |   8/8   |
++-----------+--------+---------+
+SIGTERM received. Shutting down...
+Performed 400 operations in 1.35 seconds (slowing down master).
+
+Centralized Test Results Summary:
++-----------+--------+---------+
+| Test Case | Result | Details |
++-----------+--------+---------+
+|   Total   | PASSED |   8/8   |
++-----------+--------+---------+
+|       Test Case        | Result |                                                                 Details                                                                 |
++------------------------+--------+-----------------------------------------------------------------------------------------------------------------------------------------+
+| test_concurrent_access |  FAIL  |                                                   Traceback (most recent call last):                                                    |
+|                        |        |              File "/home/milax/Escriptori/TASK2-SD/./eval/centralized_system_tests.py", line 210, in test_concurrent_access             |
+|                        |        |     self.assertEqual(response.value, f'value{i}', f"Unexpected value for key 'key{i}': expected 'value{i}' but got '{response.value}'") |
+|                        |        |                                                     AssertionError: '' != 'value0'                                                      |
+|                        |        |                                + value0 : Unexpected value for key 'key0': expected 'value0' but got ''                                 |
+|         Total          | PASSED |                                                                   7/8                                                                   |
++------------------------+--------+-----------------------------------------------------------------------------------------------------------------------------------------+
+|       Test Case        | Result |                                                                 Details                                                                 |
++------------------------+--------+-----------------------------------------------------------------------------------------------------------------------------------------+
+| test_concurrent_access |  FAIL  |                                                   Traceback (most recent call last):                                                    |
+|                        |        |              File "/home/milax/Escriptori/TASK2-SD/./eval/centralized_system_tests.py", line 210, in test_concurrent_access             |
+|                        |        |     self.assertEqual(response.value, f'value{i}', f"Unexpected value for key 'key{i}': expected 'value{i}' but got '{response.value}'") |
+|                        |        |                                                     AssertionError: '' != 'value0'                                                      |
+|                        |        |                                + value0 : Unexpected value for key 'key0': expected 'value0' but got ''                                 |
+|         Total          | PASSED |                                                                   7/8                                                                   |
++------------------------+--------+-----------------------------------------------------------------------------------------------------------------------------------------+

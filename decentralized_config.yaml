@@ -1,0 +1,20 @@
+nodes:
+  - id: 0
+    ip: "localhost"
+    port: 32770
+  - id: 1
+    ip: "localhost"
+    port: 32771
+  - id: 2
+    ip: "localhost"
+    port: 32772
+boot_node:
+    ip: "localhost"
+    port: 32773
+weights:
+  32770: 1
+  32771: 2
+  32772: 1
+quorum:
+  read: 2
+  write: 3
